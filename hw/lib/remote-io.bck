@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP1506
+D 150KHz, 3A PWM BUCK DC/DC CONVERTER
+K Buck converter, power supply
+F doc/AP1506.pdf
+$ENDCMP
+#
+$CMP DMMT5401
+D MATCHED PNP SMALL SIGNAL SURFACE MOUNT TRANSISTOR
+K pnp transistor matched
+F doc/DMMT5401.pdf
+$ENDCMP
+#
+#End Doc Library
