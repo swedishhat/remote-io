@@ -3,19 +3,25 @@ EESchema-DOCLIB  Version 2.0
 $CMP AP1506
 D 150KHz, 3A PWM BUCK DC/DC CONVERTER
 K Buck converter, power supply
-F doc/AP1506.pdf
+F datasheets/AP1506.pdf
 $ENDCMP
 #
 $CMP DMG2305UX
 D P-CHANNEL ENHANCEMENT MODE MOSFET
 K pmos p-mos p-mosfet transistor enhancement
-F doc/DMG2305UX.pdf
+F datasheets/DMG2305UX.pdf
 $ENDCMP
 #
 $CMP DMMT5401
 D MATCHED PNP SMALL SIGNAL SURFACE MOUNT TRANSISTOR
 K pnp transistor matched
-F doc/DMMT5401.pdf
+F datasheets/DMMT5401.pdf
+$ENDCMP
+#
+$CMP MCP3008
+D 2.7V 8-CHANNEL 10-BIT A/D CONVERTER WITH SPI SERIAL INTERFACE
+K ADC SPI analog digital converter
+F datasheets/MCP3008.pdf
 $ENDCMP
 #
 #End Doc Library
