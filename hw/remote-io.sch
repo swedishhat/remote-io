@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "Remote I/O Top Level"
 Date "2015-06-15"
 Rev "0"
@@ -234,8 +234,6 @@ Text Label 7050 2650 0    60   ~ 0
 SPI_MISO
 Text Label 7050 2550 0    60   ~ 0
 SPI_MOSI
-Text Label 8050 2750 0    60   ~ 0
-SPI_CE0_N
 Text Label 7050 2750 0    60   ~ 0
 SPI_CLK
 Wire Wire Line
@@ -268,8 +266,6 @@ Wire Wire Line
 	7050 2650 7500 2650
 Wire Wire Line
 	7500 2550 7050 2550
-Wire Wire Line
-	8000 2750 8500 2750
 Wire Wire Line
 	7050 2750 7500 2750
 Text Label 5550 3050 0    60   ~ 0
@@ -304,4 +300,30 @@ Wire Wire Line
 	5500 3550 6050 3550
 Wire Wire Line
 	5500 3650 6050 3650
+Text Label 7150 2950 0    60   ~ 0
+ID_SD
+Wire Wire Line
+	8350 2950 8000 2950
+Text Label 8350 2950 2    60   ~ 0
+ID_SC
+$Sheet
+S 4100 4050 1400 250 
+U 55817EDD
+F0 "I2C ID EEPROM" 60
+F1 "remote-io-eeprom.sch" 60
+F2 "ID_SC" B R 5500 4250 60 
+F3 "ID_SD" B R 5500 4150 60 
+$EndSheet
+Wire Wire Line
+	5800 4150 5500 4150
+Text Label 5800 4150 2    60   ~ 0
+ID_SD
+Wire Wire Line
+	5800 4250 5500 4250
+Text Label 5800 4250 2    60   ~ 0
+ID_SC
+Text Label 8100 2750 0    60   ~ 0
+SPI_CE0_N
+Wire Wire Line
+	8000 2750 8600 2750
 $EndSCHEMATC

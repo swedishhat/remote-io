@@ -6,6 +6,12 @@ K Buck converter, power supply
 F datasheets/AP1506.pdf
 $ENDCMP
 #
+$CMP CAT24C32
+D 32-Kb I2C CMOS Serial EEPROM
+K EEPROM Serial I2C
+F datasheets/CAT24C32.PDF
+$ENDCMP
+#
 $CMP DMG2305UX
 D P-CHANNEL ENHANCEMENT MODE MOSFET
 K pmos p-mos p-mosfet transistor enhancement
