@@ -45,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4100 2450 1400 150 
+S 4100 2400 1400 150 
 U 557F39A6
 F0 "Power" 60
 F1 "remote-io-power.sch" 60
@@ -307,7 +307,7 @@ Wire Wire Line
 Text Label 8350 2950 2    60   ~ 0
 ID_SC
 $Sheet
-S 4100 4050 1400 250 
+S 4100 4050 1400 300 
 U 55817EDD
 F0 "I2C ID EEPROM" 60
 F1 "remote-io-eeprom.sch" 60
@@ -327,9 +327,28 @@ SPI_CE0_N
 Wire Wire Line
 	8000 2750 8600 2750
 $Sheet
-S 4100 4650 1400 600 
+S 4100 4650 1400 350 
 U 55823A24
 F0 "RS-422 Level Converter" 60
 F1 "remote-io-rs422.sch" 60
+F2 "~RS422_GPS" I R 5500 4900 60 
+F3 "RS422_GPS" I R 5500 4750 60 
+F4 "RX_GPS" O L 4100 4750 60 
 $EndSheet
+Text Label 3850 4750 0    60   ~ 0
+RXD0
+Wire Wire Line
+	4100 4750 3850 4750
+Text Label 5550 4750 0    60   ~ 0
+RS422_GPS
+Text Label 5550 4900 0    60   ~ 0
+RS422_GPS
+Wire Wire Line
+	5500 4750 6050 4750
+Wire Wire Line
+	5500 4900 6050 4900
+Text Label 8000 2050 0    60   ~ 0
+RXD0
+Wire Wire Line
+	8250 2050 8000 2050
 $EndSCHEMATC
