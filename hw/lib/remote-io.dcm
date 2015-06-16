@@ -24,6 +24,12 @@ K pnp transistor matched
 F datasheets/DMMT5401.pdf
 $ENDCMP
 #
+$CMP MAX3488
+D 3.3V-POWERED, SLEW-RATE-LIMITED TRUE RS-485/RS-422 TRANSCEIVER
+K rs-422 transceiver slew rate limited
+F datasheets/MAX3488.pdf
+$ENDCMP
+#
 $CMP MCP3008
 D 2.7V 8-CHANNEL 10-BIT A/D CONVERTER WITH SPI SERIAL INTERFACE
 K ADC SPI analog digital converter

@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Remote I/O Top Level"
 Date "2015-06-15"
 Rev "0"
@@ -327,7 +327,7 @@ SPI_CE0_N
 Wire Wire Line
 	8000 2750 8600 2750
 $Sheet
-S 4300 4950 1700 250 
+S 4100 4650 1400 600 
 U 55823A24
 F0 "RS-422 Level Converter" 60
 F1 "remote-io-rs422.sch" 60

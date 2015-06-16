@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 24C512
-D I2C Serial eprom
-K I2C MEMORY
-F memory/24xx512.pdf
-$ENDCMP
-#
 $CMP AP1506
 D 150KHz, 3A PWM BUCK DC/DC CONVERTER
 K Buck converter, power supply
@@ -13,8 +7,9 @@ F datasheets/AP1506.pdf
 $ENDCMP
 #
 $CMP CAT24C32
-D I2C Serial EEPROM
-K EEPROM Serial
+D 32-Kb I2C CMOS Serial EEPROM
+K EEPROM Serial I2C
+F datasheets/CAT24C32.PDF
 $ENDCMP
 #
 $CMP DMG2305UX

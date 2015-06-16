@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title "I2C ID EEPROM"
 Date "2015-06-15"
 Rev "0"
