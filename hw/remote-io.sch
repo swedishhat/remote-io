@@ -326,4 +326,10 @@ Text Label 8100 2750 0    60   ~ 0
 SPI_CE0_N
 Wire Wire Line
 	8000 2750 8600 2750
+$Sheet
+S 4300 4950 1700 250 
+U 55823A24
+F0 "RS-422 Level Converter" 60
+F1 "remote-io-rs422.sch" 60
+$EndSheet
 $EndSCHEMATC
