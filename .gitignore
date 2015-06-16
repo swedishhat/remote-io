@@ -1,5 +1,8 @@
 # For PCBs designed using KiCAD: http://www.kicad-pcb.org/
 
+# Cache files
+*.mdc
+
 # Temporary files
 *.000
 *.bak
@@ -7,6 +10,8 @@
 
 # Netlist files (exported from Eeschema)
 *.net
+*.lst
 
 # Autorouter files (exported from Pcbnew)
-.dsn
+*.dsn
+*.ses
