@@ -1,0 +1,9 @@
+[submodule "hw/ref_designs/CANPi"]
+	path = hw/ref_designs/CANPi
+	url = git@github.com:RasmusB/CANPi.git
+[submodule "hw/ref_designs/rpi-hat-spec"]
+	path = hw/ref_designs/rpi-hat-spec
+	url = git@github.com:raspberrypi/hats.git
+[submodule "hw/ref_designs/rpi-example-hat"]
+	path = hw/ref_designs/rpi-example-hat
+	url = git@github.com:disk91/hat-design.git
