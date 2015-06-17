@@ -5,9 +5,11 @@
 
 # Temporary files
 *.000
+
+# Backup Files
 *.bak
 *.bck
-*.pcb-bak
+*.kicad_pcb-bak
 
 # Netlist files (exported from Eeschema)
 *.net
