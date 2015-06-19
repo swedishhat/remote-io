@@ -480,4 +480,13 @@ F 3 "" H 2150 6100 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2150 6100 2300 6100
+Connection ~ 5050 3900
+Connection ~ 3850 6600
+Connection ~ 3900 6100
+Connection ~ 2300 6300
+Connection ~ 7200 4650
+Connection ~ 7750 3000
+Connection ~ 7900 4150
+Connection ~ 2950 3450
+Connection ~ 6550 4700
 $EndSCHEMATC
