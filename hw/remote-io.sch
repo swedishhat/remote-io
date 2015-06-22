@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title "Remote I/O Top Level"
 Date "2015-06-15"
 Rev "0"
@@ -70,10 +70,10 @@ F2 "ADC_~CS~/SHDN" I L 1650 5400 60
 F3 "ADC_CLK" I L 1650 5500 60 
 F4 "ADC_DIN" I L 1650 5600 60 
 F5 "ADC_DOUT" O L 1650 5700 60 
-F10 "BAT_MEAS0" I R 3050 5200 60 
-F11 "BAT_MEAS1" I R 3050 5300 60 
-F12 "BAT_MEAS2" I R 3050 5400 60 
-F13 "BAT_MEAS3" I R 3050 5500 60 
+F6 "BAT_MEAS0" I R 3050 5200 60 
+F7 "BAT_MEAS1" I R 3050 5300 60 
+F8 "BAT_MEAS2" I R 3050 5400 60 
+F9 "BAT_MEAS3" I R 3050 5500 60 
 $EndSheet
 $Comp
 L +12V #PWR02
@@ -214,14 +214,6 @@ Text Label 6750 3450 2    60   ~ 0
 ID_SC
 Text Label 9750 3700 2    60   ~ 0
 SPI_CE0_N
-Text Label 4750 4450 0    60   ~ 0
-RXD0
-Text Label 6950 4450 2    60   ~ 0
-RS422_GPS
-Text Label 6950 4600 2    60   ~ 0
-~RS422_GPS
-Text Label 9500 3000 2    60   ~ 0
-RXD0
 Text Label 9500 4100 2    60   ~ 0
 LED0
 Text Label 9500 4300 2    60   ~ 0
@@ -367,30 +359,14 @@ Text Label 2050 3650 0    60   ~ 0
 BAT_MEAS3
 Text Label 2050 3050 0    60   ~ 0
 BAT_MEAS0
-Text Label 3100 5900 0    60   ~ 0
-BAT_MEAS7
-Text Label 3100 5800 0    60   ~ 0
-BAT_MEAS6
-Text Label 3100 5700 0    60   ~ 0
-BAT_MEAS5
-Text Label 3100 5600 0    60   ~ 0
-BAT_MEAS4
-Text Label 4650 1300 0    60   ~ 0
+Text Label 4850 1300 0    60   ~ 0
 SW_IN0
-Text Label 4650 1400 0    60   ~ 0
+Text Label 4850 1500 0    60   ~ 0
 SW_IN1
-Text Label 4650 1500 0    60   ~ 0
+Text Label 4850 1700 0    60   ~ 0
 SW_IN2
-Text Label 4650 1600 0    60   ~ 0
+Text Label 4850 1900 0    60   ~ 0
 SW_IN3
-Text Label 4650 1700 0    60   ~ 0
-SW_IN4
-Text Label 4650 1800 0    60   ~ 0
-SW_IN5
-Text Label 4650 1900 0    60   ~ 0
-SW_IN6
-Text Label 4650 2000 0    60   ~ 0
-SW_IN7
 Text Notes 4550 1000 0    60   ~ 0
 GPIO: Indication LEDs and Switch Monitor
 Text Label 8450 4000 0    60   ~ 0
@@ -401,8 +377,6 @@ Text Label 8450 4200 0    60   ~ 0
 SW_IN2
 Text Label 8450 4300 0    60   ~ 0
 SW_IN3
-Text Label 8450 4400 0    60   ~ 0
-SW_IN4
 $Comp
 L GND #PWR012
 U 1 1 5581C9C8
@@ -437,12 +411,6 @@ F 3 "" H 9850 3500 60  0000 C CNN
 	1    9850 3500
 	1    0    0    -1  
 $EndComp
-Text Label 9600 3100 2    60   ~ 0
-SW_IN5
-Text Label 9600 3300 2    60   ~ 0
-SW_IN6
-Text Label 9600 3400 2    60   ~ 0
-SW_IN7
 NoConn ~ 9250 3600
 NoConn ~ 8750 2700
 NoConn ~ 8750 3100
@@ -456,19 +424,6 @@ Text Notes 1050 2750 0    60   ~ 0
 Battery Measurement
 Text Notes 4900 3000 0    60   ~ 0
 Identification and Configuration EEPROM
-$Comp
-L CONN_01X04 P8
-U 1 1 558384E2
-P 7200 4500
-F 0 "P8" H 7200 4750 50  0000 C CNN
-F 1 "CONN_01X04" V 7300 4500 50  0000 C CNN
-F 2 "remote-io:OSTTE040104" H 7200 4500 60  0001 C CNN
-F 3 "" H 7200 4500 60  0000 C CNN
-	1    7200 4500
-	1    0    0    -1  
-$EndComp
-Text Notes 4600 4100 0    60   ~ 0
-RS-422 GPS Connector and Level Conversion
 $Comp
 L +5V #PWR015
 U 1 1 5580F5FF
@@ -536,52 +491,21 @@ F 3 "" H 2050 1300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +12V #PWR021
-U 1 1 55811267
-P 7000 4350
-F 0 "#PWR021" H 7000 4200 50  0001 C CNN
-F 1 "+12V" H 7000 4490 50  0000 C CNN
-F 2 "" H 7000 4350 60  0000 C CNN
-F 3 "" H 7000 4350 60  0000 C CNN
-	1    7000 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG022
+L PWR_FLAG #FLG021
 U 1 1 5581068A
 P 3600 1350
-F 0 "#FLG022" H 3600 1445 50  0001 C CNN
+F 0 "#FLG021" H 3600 1445 50  0001 C CNN
 F 1 "PWR_FLAG" H 3600 1530 50  0000 C CNN
 F 2 "" H 3600 1350 60  0000 C CNN
 F 3 "" H 3600 1350 60  0000 C CNN
 	1    3600 1350
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 5000 4350 1400 350 
-U 55823A24
-F0 "RS-422 Level Converter" 60
-F1 "remote-io-rs422.sch" 60
-F2 "~RS422_GPS" I R 6400 4600 60 
-F3 "RS422_GPS" I R 6400 4450 60 
-F4 "RX_GPS" O L 5000 4450 60 
-$EndSheet
 $Comp
-L GND #PWR023
-U 1 1 5582A000
-P 7000 4650
-F 0 "#PWR023" H 7000 4400 50  0001 C CNN
-F 1 "GND" H 7000 4500 50  0000 C CNN
-F 2 "" H 7000 4650 60  0000 C CNN
-F 3 "" H 7000 4650 60  0000 C CNN
-	1    7000 4650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR024
+L GND #PWR022
 U 1 1 5582B82F
 P 1400 1400
-F 0 "#PWR024" H 1400 1150 50  0001 C CNN
+F 0 "#PWR022" H 1400 1150 50  0001 C CNN
 F 1 "GND" H 1400 1250 50  0000 C CNN
 F 2 "" H 1400 1400 60  0000 C CNN
 F 3 "" H 1400 1400 60  0000 C CNN
@@ -589,10 +513,10 @@ F 3 "" H 1400 1400 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L GND #PWR023
 U 1 1 5582D76A
 P 1850 3850
-F 0 "#PWR025" H 1850 3600 50  0001 C CNN
+F 0 "#PWR023" H 1850 3600 50  0001 C CNN
 F 1 "GND" H 1850 3700 50  0000 C CNN
 F 2 "" H 1850 3850 60  0000 C CNN
 F 3 "" H 1850 3850 60  0000 C CNN
@@ -689,14 +613,6 @@ Wire Wire Line
 Wire Wire Line
 	9250 3700 9750 3700
 Wire Wire Line
-	5000 4450 4750 4450
-Wire Wire Line
-	6400 4450 7000 4450
-Wire Wire Line
-	6400 4600 7000 4600
-Wire Wire Line
-	9500 3000 9250 3000
-Wire Wire Line
 	9250 4100 9500 4100
 Wire Wire Line
 	9250 4300 9500 4300
@@ -738,29 +654,21 @@ Wire Wire Line
 Wire Wire Line
 	2600 3150 1850 3150
 Wire Wire Line
-	3050 5900 3600 5900
+	5200 1300 4850 1300
 Wire Wire Line
-	3050 5800 3600 5800
+	5200 1700 4850 1700
 Wire Wire Line
-	3050 5700 3600 5700
+	5200 1400 4650 1400
 Wire Wire Line
-	3050 5600 3600 5600
+	4650 2000 5200 2000
 Wire Wire Line
-	5200 1300 4650 1300
-Wire Wire Line
-	5200 1500 4650 1500
-Wire Wire Line
-	5200 1700 4650 1700
-Wire Wire Line
-	5200 1900 4650 1900
-Wire Wire Line
-	5200 2000 4650 2000
-Wire Wire Line
-	5200 1800 4650 1800
+	4650 1800 5200 1800
 Wire Wire Line
 	5200 1600 4650 1600
 Wire Wire Line
-	5200 1400 4650 1400
+	5200 1900 4850 1900
+Wire Wire Line
+	5200 1500 4850 1500
 Wire Notes Line
 	4550 1000 7050 1000
 Wire Notes Line
@@ -780,8 +688,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 4300 8450 4300
 Wire Wire Line
-	8750 4400 8450 4400
-Wire Wire Line
 	8750 4500 8350 4500
 Wire Wire Line
 	9250 2700 9250 2600
@@ -789,12 +695,6 @@ Wire Wire Line
 	9250 3200 9850 3200
 Wire Wire Line
 	9250 3500 9850 3500
-Wire Wire Line
-	9250 3300 9600 3300
-Wire Wire Line
-	9250 3400 9600 3400
-Wire Wire Line
-	9250 3100 9600 3100
 Wire Notes Line
 	8050 2350 8050 4750
 Wire Notes Line
@@ -832,14 +732,6 @@ Wire Notes Line
 	6950 3750 6950 3000
 Wire Notes Line
 	6950 3000 4900 3000
-Wire Notes Line
-	4600 4100 4600 4900
-Wire Notes Line
-	4600 4900 7400 4900
-Wire Notes Line
-	7400 4900 7400 4100
-Wire Notes Line
-	7400 4100 4600 4100
 Wire Wire Line
 	4550 6000 5050 6000
 Wire Wire Line
@@ -858,8 +750,6 @@ Wire Wire Line
 	6800 5900 7400 5900
 Wire Wire Line
 	6800 6000 7400 6000
-Wire Wire Line
-	7000 4600 7000 4550
 Wire Notes Line
 	4450 5450 7800 5450
 Wire Notes Line
@@ -871,10 +761,10 @@ Wire Notes Line
 Text Notes 4450 5450 0    60   ~ 0
 CAN Connector, Controller, and Transceiver
 $Comp
-L +5VA #PWR026
+L +5VA #PWR024
 U 1 1 5584DE0A
 P 2850 1300
-F 0 "#PWR026" H 2850 1150 50  0001 C CNN
+F 0 "#PWR024" H 2850 1150 50  0001 C CNN
 F 1 "+5VA" H 2850 1440 50  0000 C CNN
 F 2 "" H 2850 1300 60  0000 C CNN
 F 3 "" H 2850 1300 60  0000 C CNN
@@ -882,10 +772,10 @@ F 3 "" H 2850 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG027
+L PWR_FLAG #FLG025
 U 1 1 5584DED9
 P 2850 1300
-F 0 "#FLG027" H 2850 1395 50  0001 C CNN
+F 0 "#FLG025" H 2850 1395 50  0001 C CNN
 F 1 "PWR_FLAG" H 2850 1480 50  0000 C CNN
 F 2 "" H 2850 1300 60  0000 C CNN
 F 3 "" H 2850 1300 60  0000 C CNN
@@ -922,8 +812,6 @@ F 3 "" H 5400 1650 60  0000 C CNN
 	1    5400 1650
 	1    0    0    -1  
 $EndComp
-Connection ~ 7000 4650
-Connection ~ 7000 4350
 Connection ~ 8300 2600
 Connection ~ 8350 3000
 Connection ~ 8350 3400
@@ -942,4 +830,28 @@ Connection ~ 2450 1300
 Connection ~ 2850 1300
 Connection ~ 3250 1300
 Connection ~ 3600 1350
+NoConn ~ 9250 3000
+$Comp
+L GND #PWR026
+U 1 1 5589B8EC
+P 4650 2100
+F 0 "#PWR026" H 4650 1850 50  0001 C CNN
+F 1 "GND" H 4650 1950 50  0000 C CNN
+F 2 "" H 4650 2100 60  0000 C CNN
+F 3 "" H 4650 2100 60  0000 C CNN
+	1    4650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1400 4650 2100
+Connection ~ 4650 1600
+Connection ~ 4650 1800
+Connection ~ 4650 2000
+Connection ~ 4650 2100
+NoConn ~ 8750 4400
+NoConn ~ 9250 3300
+NoConn ~ 9250 3400
+Connection ~ 9250 2600
+Connection ~ 9250 2700
+NoConn ~ 9250 3100
 $EndSCHEMATC
