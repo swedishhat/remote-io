@@ -143,17 +143,6 @@ F 3 "" H 8350 4500 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR07
-U 1 1 557F877D
-P 8350 3400
-F 0 "#PWR07" H 8350 3250 50  0001 C CNN
-F 1 "+3.3V" H 8350 3540 50  0000 C CNN
-F 2 "" H 8350 3400 60  0000 C CNN
-F 3 "" H 8350 3400 60  0000 C CNN
-	1    8350 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR08
 U 1 1 557F879A
 P 8350 3800
@@ -561,11 +550,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 2600 9600 2600
 Wire Wire Line
-	9250 2800 9600 2800
-Wire Wire Line
 	9250 4200 9600 4200
-Wire Wire Line
-	8350 3400 8750 3400
 Wire Wire Line
 	8750 3800 8350 3800
 Wire Wire Line
@@ -804,7 +789,6 @@ F 3 "" H 5400 1650 60  0000 C CNN
 $EndComp
 Connection ~ 8300 2600
 Connection ~ 8350 3000
-Connection ~ 8350 3400
 Connection ~ 8350 3800
 Connection ~ 8350 4500
 Connection ~ 9600 4000
@@ -971,4 +955,7 @@ F 3 "" H 9050 1650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 9050 1450
+Wire Wire Line
+	9250 2800 9600 2800
+NoConn ~ 8750 3400
 $EndSCHEMATC
