@@ -54,4 +54,9 @@ K ADC SPI analog digital converter
 F datasheets/MCP3008.pdf
 $ENDCMP
 #
+$CMP MOUNT_HOLE
+D Mounting Hole
+K mounting hole
+$ENDCMP
+#
 #End Doc Library
