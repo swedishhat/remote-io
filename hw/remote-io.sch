@@ -382,12 +382,12 @@ NoConn ~ 9250 2900
 $Comp
 L GND #PWR013
 U 1 1 558298A3
-P 9850 3200
-F 0 "#PWR013" H 9850 2950 50  0001 C CNN
-F 1 "GND" H 9850 3050 50  0000 C CNN
-F 2 "" H 9850 3200 60  0000 C CNN
-F 3 "" H 9850 3200 60  0000 C CNN
-	1    9850 3200
+P 9600 3200
+F 0 "#PWR013" H 9600 2950 50  0001 C CNN
+F 1 "GND" H 9600 3050 50  0000 C CNN
+F 2 "" H 9600 3200 60  0000 C CNN
+F 3 "" H 9600 3200 60  0000 C CNN
+	1    9600 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -596,7 +596,13 @@ Wire Wire Line
 Wire Wire Line
 	9250 4500 9500 4500
 Wire Wire Line
-	6700 1250 6700 2150
+	6700 1250 6700 1550
+Wire Wire Line
+	6700 1550 6700 1850
+Wire Wire Line
+	6700 1850 6700 2000
+Wire Wire Line
+	6700 2000 6700 2150
 Connection ~ 6700 1550
 Connection ~ 6700 1850
 Wire Wire Line
@@ -667,7 +673,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 2700 9250 2600
 Wire Wire Line
-	9250 3200 9850 3200
+	9250 3200 9600 3200
 Wire Wire Line
 	9250 3500 9850 3500
 Wire Notes Line
@@ -679,7 +685,13 @@ Wire Notes Line
 Wire Notes Line
 	10000 2350 8050 2350
 Wire Wire Line
-	1850 3150 1850 3850
+	1850 3150 1850 3350
+Wire Wire Line
+	1850 3350 1850 3550
+Wire Wire Line
+	1850 3550 1850 3750
+Wire Wire Line
+	1850 3750 1850 3850
 Connection ~ 1850 3350
 Connection ~ 1850 3550
 Connection ~ 1850 3750
@@ -726,11 +738,11 @@ Wire Wire Line
 Wire Wire Line
 	6800 6000 7550 6000
 Wire Notes Line
-	4450 5450 7800 5450
+	4450 5450 8000 5450
 Wire Notes Line
-	7800 5450 7800 6250
+	8000 5450 8000 6300
 Wire Notes Line
-	7800 6250 4450 6300
+	8000 6300 4450 6300
 Wire Notes Line
 	4450 6300 4450 5450
 Text Notes 4450 5450 0    60   ~ 0
@@ -794,7 +806,7 @@ Connection ~ 8350 4500
 Connection ~ 9600 4000
 Connection ~ 9600 4200
 Connection ~ 9850 3500
-Connection ~ 9850 3200
+Connection ~ 9600 3200
 Connection ~ 9600 2600
 Connection ~ 9600 2800
 Connection ~ 1400 1400
@@ -817,7 +829,13 @@ F 3 "" H 4650 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 1400 4650 2100
+	4650 1400 4650 1600
+Wire Wire Line
+	4650 1600 4650 1800
+Wire Wire Line
+	4650 1800 4650 2000
+Wire Wire Line
+	4650 2000 4650 2100
 Connection ~ 4650 1600
 Connection ~ 4650 1800
 Connection ~ 4650 2000

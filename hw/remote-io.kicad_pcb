@@ -3,7 +3,7 @@
   (general
     (links 167)
     (no_connects 0)
-    (area 28.924999 20.924999 94.075001 77.575001)
+    (area 27.202536 19.5625 100.070334 78.939)
     (thickness 1.6)
     (drawings 26)
     (tracks 694)
@@ -72,7 +72,7 @@
     (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
-      (usegerberextensions true)
+      (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.200000)
       (plotframeref false)
@@ -90,11 +90,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory ../doc/prints/))
   )
 
   (net 0 "")
