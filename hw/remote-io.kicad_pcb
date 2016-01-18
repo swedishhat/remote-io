@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-06-25 BZR 5821)-product")
+(kicad_pcb (version 4) (host pcbnew "(2015-07-11 BZR 5926)-product")
 
   (general
     (links 167)
@@ -68,7 +68,7 @@
     (pad_drill 2.75)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (grid_origin 29 21)
+    (grid_origin 64 35.8)
     (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
