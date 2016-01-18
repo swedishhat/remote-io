@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="42cm" height="32cm" viewBox="79 24 826 625" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="80.8862" y="61.9076" width="275.832" height="586.229"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="80.8862" y="61.9076" width="275.832" height="586.229"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="107.575" y="170.519" width="207.85" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="107.575" y="170.519" width="207.85" height="70"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="211.5" y="201.419">
+      <tspan x="211.5" y="201.419">ID_SD (I2C ID EEPROM)</tspan>
+      <tspan x="211.5" y="217.419">ID_SC (I2C ID EEPROM)</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="564.376" y="186.519" width="122.1" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="564.376" y="186.519" width="122.1" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="625.426" y="209.419">
+      <tspan x="625.426" y="209.419">ID EEPROM</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="554.64" y1="205.519" x2="326.082" y2="205.519"/>
+    <polygon style="fill: #000000" points="562.14,205.519 552.14,210.519 554.64,205.519 552.14,200.519 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="562.14,205.519 552.14,210.519 554.64,205.519 552.14,200.519 "/>
+    <polygon style="fill: #000000" points="318.582,205.519 328.582,200.519 326.082,205.519 328.582,210.519 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="318.582,205.519 328.582,200.519 326.082,205.519 328.582,210.519 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="131.2" y="275.561" width="160.6" height="86"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="131.2" y="275.561" width="160.6" height="86"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="211.5" y="298.461">
+      <tspan x="211.5" y="298.461">GPIO11 (SPI_CLK)</tspan>
+      <tspan x="211.5" y="314.461">GPIO10 (SPI_MOSI)</tspan>
+      <tspan x="211.5" y="330.461">GPIO09 (SPI_MISO)</tspan>
+      <tspan x="211.5" y="346.461">GPIO08 (SPI_CE0_N)</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="406.753" y="299.561" width="106.7" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="406.753" y="299.561" width="106.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="460.103" y="322.461">
+      <tspan x="460.103" y="322.461">MCP3008 ADC</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="566.453" y="291.561" width="137.5" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="566.453" y="291.561" width="137.5" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="635.203" y="314.461">
+      <tspan x="635.203" y="314.461">Voltage Divider</tspan>
+      <tspan x="635.203" y="330.461">Network</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="770.576,291.561 904.323,291.561 884.669,345.561 750.922,345.561 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="770.576,291.561 904.323,291.561 884.669,345.561 750.922,345.561 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="827.623" y="314.461">
+      <tspan x="827.623" y="314.461">12VBAT/24VBAT</tspan>
+      <tspan x="827.623" y="330.461">Inputs</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="760.11" y1="318.561" x2="714.677" y2="318.561"/>
+    <polygon style="fill: #000000" points="707.177,318.561 717.177,313.561 714.677,318.561 717.177,323.561 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="707.177,318.561 717.177,313.561 714.677,318.561 717.177,323.561 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="396.031" y1="318.561" x2="302.543" y2="318.561"/>
+    <polygon style="fill: #000000" points="403.531,318.561 393.531,323.561 396.031,318.561 393.531,313.561 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="403.531,318.561 393.531,323.561 396.031,318.561 393.531,313.561 "/>
+    <polygon style="fill: #000000" points="295.043,318.561 305.043,313.561 302.543,318.561 305.043,323.561 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="295.043,318.561 305.043,313.561 302.543,318.561 305.043,323.561 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="566.121" y1="318.561" x2="524.184" y2="318.561"/>
+    <polygon style="fill: #000000" points="516.684,318.561 526.684,313.561 524.184,318.561 526.684,323.561 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="516.684,318.561 526.684,313.561 524.184,318.561 526.684,323.561 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="150.45" y="404.602" width="122.1" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="150.45" y="404.602" width="122.1" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="211.5" y="427.502">
+      <tspan x="211.5" y="427.502">GPIO15 (RXD0)</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="427.889" y="396.602" width="114.4" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="427.889" y="396.602" width="114.4" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="485.089" y="419.502">
+      <tspan x="485.089" y="419.502">RS-422 Level</tspan>
+      <tspan x="485.089" y="435.502">Converter</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="635.757,404.602 740.581,404.602 726.75,442.602 621.926,442.602 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="635.757,404.602 740.581,404.602 726.75,442.602 621.926,442.602 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="681.254" y="427.502">
+      <tspan x="681.254" y="427.502">RS-422 GPS</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="426.894" y1="423.602" x2="283.254" y2="423.602"/>
+    <polygon style="fill: #000000" points="275.754,423.602 285.754,418.602 283.254,423.602 285.754,428.602 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="275.754,423.602 285.754,418.602 283.254,423.602 285.754,428.602 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="628.285" y1="423.602" x2="553.025" y2="423.602"/>
+    <polygon style="fill: #000000" points="545.525,423.602 555.525,418.602 553.025,423.602 555.525,428.602 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="545.525,423.602 555.525,418.602 553.025,423.602 555.525,428.602 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="150.45" y="493.644" width="122.1" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="150.45" y="493.644" width="122.1" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="211.5" y="516.544">
+      <tspan x="211.5" y="516.544">8x GPIO Input</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="438.482" y="485.644" width="75.9" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="438.482" y="485.644" width="75.9" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="476.432" y="508.544">
+      <tspan x="476.432" y="508.544">Pullup</tspan>
+      <tspan x="476.432" y="524.544">Circuit</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="613.8,485.644 755.247,485.644 735.592,539.644 594.145,539.644 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="613.8,485.644 755.247,485.644 735.592,539.644 594.145,539.644 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="674.696" y="508.544">
+      <tspan x="674.696" y="508.544">NO/NC Switches</tspan>
+      <tspan x="674.696" y="524.544">to GND</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="437.486" y1="512.644" x2="283.281" y2="512.644"/>
+    <polygon style="fill: #000000" points="275.781,512.644 285.781,507.644 283.281,512.644 285.781,517.644 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="275.781,512.644 285.781,507.644 283.281,512.644 285.781,517.644 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="603.336" y1="512.644" x2="525.109" y2="512.644"/>
+    <polygon style="fill: #000000" points="517.609,512.644 527.609,507.644 525.109,512.644 527.609,517.644 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="517.609,512.644 527.609,507.644 525.109,512.644 527.609,517.644 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="134.05" y="574.685" width="152.9" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="134.05" y="574.685" width="152.9" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="210.5" y="597.585">
+      <tspan x="210.5" y="597.585">3x-5x GPIO Output</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="447.395" y="574.685" width="106.7" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="447.395" y="574.685" width="106.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="500.745" y="597.585">
+      <tspan x="500.745" y="597.585">Status LEDs</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="287.915" y1="593.685" x2="436.65" y2="593.685"/>
+    <polygon style="fill: #000000" points="444.15,593.685 434.15,598.685 436.65,593.685 434.15,588.685 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="444.15,593.685 434.15,598.685 436.65,593.685 434.15,588.685 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="182.65" y="89.478" width="57.7" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="182.65" y="89.478" width="57.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="211.5" y="112.378">
+      <tspan x="211.5" y="112.378">5VDC</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="412.787" y1="108.478" x2="250.086" y2="108.478"/>
+    <polygon style="fill: #000000" points="242.586,108.478 252.586,103.478 250.086,108.478 252.586,113.478 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="242.586,108.478 252.586,103.478 250.086,108.478 252.586,113.478 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="582.304" y="81.478" width="99" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="582.304" y="81.478" width="99" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="631.804" y="104.378">
+      <tspan x="631.804" y="104.378">Switching</tspan>
+      <tspan x="631.804" y="120.378">Regulator</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="764.988,81.478 850.516,81.478 830.862,135.478 745.334,135.478 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="764.988,81.478 850.516,81.478 830.862,135.478 745.334,135.478 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="797.925" y="104.378">
+      <tspan x="797.925" y="104.378">12VBAT</tspan>
+      <tspan x="797.925" y="120.378">Power</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="582.304" y1="108.478" x2="530.224" y2="108.478"/>
+    <polygon style="fill: #000000" points="522.724,108.478 532.724,103.478 530.224,108.478 532.724,113.478 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="522.724,108.478 532.724,103.478 530.224,108.478 532.724,113.478 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="755.161" y1="108.478" x2="691.04" y2="108.478"/>
+    <polygon style="fill: #000000" points="683.54,108.478 693.54,103.478 691.04,108.478 693.54,113.478 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="683.54,108.478 693.54,103.478 691.04,108.478 693.54,113.478 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="413.788" y="81.478" width="106.7" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="413.788" y="81.478" width="106.7" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="467.138" y="104.378">
+      <tspan x="467.138" y="104.378">Ideal Diode</tspan>
+      <tspan x="467.138" y="120.378">Circuit</tspan>
+    </text>
+  </g>
+  <text font-size="27.0929" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="122.019" y="50.0956">
+    <tspan x="122.019" y="50.0956">Raspberry Pi 2</tspan>
+  </text>
+</svg>
