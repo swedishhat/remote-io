@@ -19,4 +19,4 @@
 *.dsn
 *.ses
 
-doc/invoices
+invoices/
