@@ -1,0 +1,58 @@
+Added Component: Designator=C?(CAPR5-4X5)
+Added Component: Designator=P1(HDR1X2)
+Added Component: Designator=P2(HDR2X2)
+Added Component: Designator=P3(HDR1X2)
+Added Component: Designator=P4(HDR1X3)
+Added Component: Designator=P5(HDR2X2)
+Added Component: Designator=P6(HDR2X2)
+Added Component: Designator=P7(HDR1X2)
+Added Component: Designator=R1(AXIAL-0.3)
+Added Component: Designator=R2(AXIAL-0.3)
+Added Component: Designator=R3(AXIAL-0.3)
+Added Component: Designator=U1(CAT24C32WI-G)
+Added Pin To Net: NetName=3V3 Pin=C?-1
+Added Pin To Net: NetName=3V3 Pin=P1-1
+Added Pin To Net: NetName=3V3 Pin=R1-2
+Added Pin To Net: NetName=3V3 Pin=R2-2
+Added Pin To Net: NetName=3V3 Pin=R3-2
+Added Pin To Net: NetName=3V3 Pin=U1-8
+Added Net: Name=3V3
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P2-4
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=GND Pin=P5-4
+Added Pin To Net: NetName=GND Pin=P6-4
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Net: Name=GND
+Added Pin To Net: NetName=ID_SC Pin=P7-1
+Added Pin To Net: NetName=ID_SC Pin=R1-1
+Added Pin To Net: NetName=ID_SC Pin=U1-6
+Added Net: Name=ID_SC
+Added Pin To Net: NetName=ID_SD Pin=P7-2
+Added Pin To Net: NetName=ID_SD Pin=R2-1
+Added Pin To Net: NetName=ID_SD Pin=U1-5
+Added Net: Name=ID_SD
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Pin To Net: NetName=NetP2_1 Pin=P4-1
+Added Net: Name=NetP2_1
+Added Pin To Net: NetName=NetP2_2 Pin=P2-2
+Added Pin To Net: NetName=NetP2_2 Pin=U1-1
+Added Net: Name=NetP2_2
+Added Pin To Net: NetName=NetP4_2 Pin=P4-2
+Added Pin To Net: NetName=NetP4_2 Pin=P5-1
+Added Net: Name=NetP4_2
+Added Pin To Net: NetName=NetP4_3 Pin=P4-3
+Added Pin To Net: NetName=NetP4_3 Pin=P6-1
+Added Net: Name=NetP4_3
+Added Pin To Net: NetName=NetP5_2 Pin=P5-2
+Added Pin To Net: NetName=NetP5_2 Pin=U1-2
+Added Net: Name=NetP5_2
+Added Pin To Net: NetName=NetP6_2 Pin=P6-2
+Added Pin To Net: NetName=NetP6_2 Pin=U1-3
+Added Net: Name=NetP6_2
+Added Pin To Net: NetName=WP Pin=P3-1
+Added Pin To Net: NetName=WP Pin=R3-1
+Added Pin To Net: NetName=WP Pin=U1-7
+Added Net: Name=WP
+Added Class: Name=CAT24C32 Breakout

@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=RemoteIO R02\RemoteIO R02.PrjPcb
+[Project2]
+ProjectPath=CAT24C32 Breakout\CAT24C32 Breakout.PrjPcb
+[Project3]
+ProjectPath=..\..\..\swedishhat-altium-parts\SwedishHat Altium Parts.LibPkg

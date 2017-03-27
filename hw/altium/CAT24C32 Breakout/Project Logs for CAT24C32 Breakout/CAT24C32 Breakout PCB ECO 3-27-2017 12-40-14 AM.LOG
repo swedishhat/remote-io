@@ -1,0 +1,13 @@
+Change Component Designator: OldDesignator=P1 NewDesignator=Power
+Change Component Designator: OldDesignator=P2 NewDesignator=A0
+Change Component Designator: OldDesignator=P3 NewDesignator=WP
+Change Component Designator: OldDesignator=P4 NewDesignator=Addr
+Change Component Designator: OldDesignator=P5 NewDesignator=A1
+Change Component Designator: OldDesignator=P6 NewDesignator=A2
+Change Component Designator: OldDesignator=P7 NewDesignator=I2C
+Change Net Name : Old Net Name=NetP2_1 New Net Name=NetA0_1
+Change Net Name : Old Net Name=NetP2_2 New Net Name=NetA0_2
+Change Net Name : Old Net Name=NetP4_2 New Net Name=NetA1_1
+Change Net Name : Old Net Name=NetP4_3 New Net Name=NetA2_1
+Change Net Name : Old Net Name=NetP5_2 New Net Name=NetA1_2
+Change Net Name : Old Net Name=NetP6_2 New Net Name=NetA2_2
