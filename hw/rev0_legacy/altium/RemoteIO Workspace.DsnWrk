@@ -6,3 +6,5 @@ ProjectPath=RemoteIO R02\RemoteIO R02.PrjPcb
 ProjectPath=CAT24C32 Breakout\CAT24C32 Breakout.PrjPcb
 [Project3]
 ProjectPath=..\..\..\swedishhat-altium-parts\SwedishHat Altium Parts.LibPkg
+[Project4]
+ProjectPath=RIO CAN Breakout\RIO CAN Breakout.PrjPcb

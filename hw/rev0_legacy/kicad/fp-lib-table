@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name remote-io)(type KiCad)(uri "$(KIPRJMOD)/lib/remote-io.pretty")(options "")(descr "The things you need when you need them"))
+)
